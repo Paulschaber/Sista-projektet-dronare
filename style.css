@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgba(113, 113, 113, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    margin:0 auto;
+}
+
+#mainimg{
+    width:100%;
+    opacity: 70%;
+}
+
+
+p{
+    width: 50vw;
+    font-size: 3vw;
+}
+
+.center{
+    margin: 10vw auto;
+    display: block;
+}
+
