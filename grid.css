@@ -1,12 +1,9 @@
 .content{
     display:grid;
-    grid-auto-rows: minmax(10vw,auto);
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 67vw minmax(10vw,auto);
+    grid-template-columns: 1fr;
 }
 
-#mainimg{
-    grid-row: 1/2;
-}
-#firsttext{
-    grid-row: 1/2;
+.intro{
+    grid-row: 1/2
 }

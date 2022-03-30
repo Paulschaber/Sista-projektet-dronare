@@ -12,19 +12,32 @@ header{
     margin:0 auto;
 }
 
-#mainimg{
-    width:100%;
-    opacity: 70%;
-}
-
-
-p{
-    width: 50vw;
+#firsttext{
+    width: 70vw;
     font-size: 3vw;
+    margin-top: 30vw;
+    padding: 3vw;
+     border-radius: 5vw;
+    background: radial-gradient(rgba(238, 238, 238, 0.6)70%, rgba(238, 238, 238, 0.001));
 }
 
 .center{
     margin: 10vw auto;
     display: block;
+}
+
+.intro{
+    background-image: url("img/pexels-flo-maderebner-2281073.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*________________________________________________________________________________________________________________________________________________
+Gallery site
+ */
+
+img{
+    border-radius:5vw;
 }
 
