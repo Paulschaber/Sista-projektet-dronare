@@ -9,35 +9,45 @@ header{
 }
 
 .content{
-    margin:0 auto;
+    background: linear-gradient(rgb(8, 42, 6) 30%, rgba(144, 238, 144, 0.5) 50%, rgb(255, 255, 255));
 }
 
 #firsttext{
     width: 70vw;
     font-size: 3vw;
     margin-top: 30vw;
-    padding: 3vw;
-     border-radius: 5vw;
-    background: radial-gradient(rgba(238, 238, 238, 0.6)70%, rgba(238, 238, 238, 0.001));
 }
 
 .center{
-    margin: 10vw auto;
+    margin: 5vw auto;
     display: block;
+    width:40vw;
+
+    padding: 3vw;
+    border-radius: 5vw;
+    background: radial-gradient(ellipse, rgba(238, 238, 238, 0.6)70%, rgba(238, 238, 238, 0.001));
 }
 
 .intro{
+    mask-image: linear-gradient(#000000 75%, rgba(0,0,0,0.05) 100%);
     background-image: url("img/pexels-flo-maderebner-2281073.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
+#explimg{
+    border-radius: 0;
+}
+
+.maintext{
+    font-size: 2vw;
+}
 
 /*________________________________________________________________________________________________________________________________________________
 Gallery site
  */
 
-img{
+.container>img{
     border-radius:5vw;
 }
 
