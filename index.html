@@ -5,6 +5,8 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   </head>
   <body>
     <header>
@@ -23,7 +25,35 @@
           consectetur adipiscing elit.
         </p>
       </div>
-      <img id="explimg" class="center" src="img/Drone_Diagram.jpg" alt="Drone Diagram, by wikimedia user Glosome">
+      <img id="explimg" class="center" usemap="#diagram-map" src="img/Drone_Diagram.jpg" alt="Drone Diagram, by wikimedia user Glosome">
+      <map name="diagram-map">
+        <area target="" alt="motor" title="motor" href="#motor" coords="1223,3931,139" shape="circle">
+        <area target="" alt="motor" title="motor" href="#motor" coords="3715,3909,141" shape="circle">
+        <area target="" alt="motor" title="motor" href="#motor" coords="1232,1405,137" shape="circle">
+        <area target="" alt="motor" title="motor" href="#motor" coords="3719,1409,134" shape="circle">
+        <area target="" alt="battery" title="battery" href="#battery" coords="2226,1816,2725,2081" shape="rect">
+        <area target="" alt="flight controller" title="flight controller" href="#fc" coords="2257,3180,2147,3180,2138,3149,2231,3052,2138,2955,2142,2041,2222,2032,2235,2076,2725,2089,2734,2045,2809,2036,2809,2094,2655,2226,2694,2314,2522,2306,2522,2575,2814,2580,2818,3176,2694,3180,2690,3017,2257,3017" shape="poly">
+        <area target="" alt="camera" title="camera" href="#camera" coords="2677,3026,2257,3640" shape="rect">
+        <area target="" alt="power distribution board" title="power distribution board" href="#pdb" coords="2076,3207,2076,3255,2257,3260,2261,3180,2138,3185,2133,3149" shape="poly">
+        <area target="" alt="power distribution board" title="power distribution board" href="#pdb" coords="2694,3185,2690,3260,2867,3255,2875,2580,2822,2584,2822,3176" shape="poly">
+        <area target="" alt="SD card" title="SD card" href="#sd" coords="2527,2314,2703,2323,2739,2363,2800,2314,2889,2319,2893,2566,2527,2571" shape="poly">
+        <area target="" alt="power distribution board" title="power distribution board" href="#pdb" coords="2814,2102,2814,2032,2734,2032,2734,1961,2862,1961,2871,2045" shape="poly">
+        <area target="" alt="power distribution board" title="power distribution board" href="#pdb" coords="2231,1961,2076,1957,2080,2999,2133,2937,2138,2019,2222,2027" shape="poly">
+        <area target="" alt="reciever/transmitter" title="reciever/transmitter" href="#rx-tx" coords="2133,2959,2226,3052,1820,3432,1727,3339" shape="poly">
+        <area target="" alt="reciever/transmitter" title="reciever/transmitter" href="#rx-tx" coords="2659,2222,2743,2354,3193,1961,3092,1851" shape="poly">
+        <area target="" alt="ESC" title="ESC" href="#esc" coords="1754,3485,1550,3688,1458,3595,1665,3405" shape="poly">
+        <area target="" alt="ESC" title="ESC" href="#esc" coords="3300,3424,3220,3508,3415,3689,3499,3609,3383,3494" shape="poly">
+        <area target="" alt="ESC" title="ESC" href="#esc" coords="3180,1798,3388,1617,3467,1714,3264,1899" shape="poly">
+        <area target="" alt="ESC" title="ESC" href="#esc" coords="1572,1621,1489,1714,1692,1899,1771,1802" shape="poly">
+        <area target="" alt="ESC" title="ESC" href="#esc" coords="9,199,773,309" shape="rect">
+        <area target="" alt="power distribution board" title="power distribution board" href="#pdb" coords="9,327,1564,415" shape="rect">
+        <area target="" alt="flight controller" title="flight controller" href="#fc" coords="9,437,985,521" shape="rect">
+        <area target="" alt="battery" title="battery" href="#battery" coords="9,543,1087,663,9,689,1515,760" shape="rect">
+        <area target="" alt="reciever/transmitter" title="reciever/transmitter" href="#rx-tx" coords="13,678,1524,775" shape="rect">
+        <area target="" alt="SD card" title="SD card" href="#sd" coords="835,879,0,791,9,905,967,1007" shape="rect">
+        <area target="" alt="camera" title="camera" href="#camera" coords="972,994,9,901" shape=rect>
+        <area target="" alt="motor" title="motor" href="#motor" coords="4,1020,1011,1126" shape="rect">
+      </map>
       <p class="center maintext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
         <br><br>
         Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
@@ -31,8 +61,11 @@
         Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nulla aliquet enim tortor at auctor urna nunc id. Eu turpis egestas pretium aenean pharetra. Non arcu risus quis varius. Non diam phasellus vestibulum lorem sed risus.
         <br> Aliquet bibendum enim facilisis gravida neque convallis a.
       </p>
-      <img src="img/ESC.jpg" alt="Electronic speedcontroller, by wikimedia user Avsar Aras">
-      <img src="img/brushless_motor.jpg" alt="Brushless motor, by wikimedia user Unknownlfcg">
+      <img id="motor" class="center" src="img/brushless_motor.jpg" alt="Brushless motor, by wikimedia user Unknownlfcg">
+      <p>
+
+      </p>
+      <img id="esc" class="center" src="img/ESC.jpg" alt="Electronic speedcontroller, by wikimedia user Avsar Aras">
     </div>
   </body>
 </html>

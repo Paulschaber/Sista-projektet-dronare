@@ -49,5 +49,8 @@ Gallery site
 
 .container>img{
     border-radius:5vw;
+    display: inline;
 }
+
+
 
