@@ -45,7 +45,7 @@ header{
 
 .left{
     margin: 5vw auto 5vw 1vw;
-    display: block;
+    display: inline;
     width:40vw;
 
     padding: 3vw;
@@ -55,7 +55,7 @@ header{
 
 .right{
     margin: 5vw 1vw 5vw auto;
-    display: block;
+    display: inline;
     width:40vw;
 
     padding: 3vw;
