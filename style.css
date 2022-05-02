@@ -43,6 +43,26 @@ header{
     font-size: 2vw;
 }
 
+.left{
+    margin: 5vw auto 5vw 1vw;
+    display: block;
+    width:40vw;
+
+    padding: 3vw;
+    border-radius: 5vw;
+    background: radial-gradient(ellipse, rgba(238, 238, 238, 0.6)70%, rgba(238, 238, 238, 0.001));
+}
+
+.right{
+    margin: 5vw 1vw 5vw auto;
+    display: block;
+    width:40vw;
+
+    padding: 3vw;
+    border-radius: 5vw;
+    background: radial-gradient(ellipse, rgba(238, 238, 238, 0.6)70%, rgba(238, 238, 238, 0.001));
+}
+
 /*________________________________________________________________________________________________________________________________________________
 Gallery site
  */
