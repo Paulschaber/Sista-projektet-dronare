@@ -21,7 +21,7 @@ header{
 .center{
     margin: 5vw auto;
     display: block;
-    width:40vw;
+    width:70vw;
 
     padding: 3vw;
     border-radius: 5vw;
@@ -37,40 +37,94 @@ header{
 
 #explimg{
     border-radius: 0;
+    width:500px;
+    justify-self:center ;
 }
 
 .maintext{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .left{
-    margin: 5vw auto 5vw 1vw;
+    margin: 10vw auto 10vw 1vw;
     display: inline;
     width:40vw;
 
     padding: 3vw;
     border-radius: 5vw;
     background: radial-gradient(ellipse, rgba(238, 238, 238, 0.6)70%, rgba(238, 238, 238, 0.001));
+    align-self: center;
 }
 
 .right{
-    margin: 5vw 1vw 5vw auto;
+    margin: 10vw 1vw 10vw auto;
     display: inline;
     width:40vw;
 
     padding: 3vw;
     border-radius: 5vw;
     background: radial-gradient(ellipse, rgba(238, 238, 238, 0.6)70%, rgba(238, 238, 238, 0.001));
+    align-self: center;
+}
+
+p{
+    font-size: 2vw;
 }
 
 /*________________________________________________________________________________________________________________________________________________
 Gallery site
  */
 
+
 .container>img{
     border-radius:5vw;
-    display: inline;
+    width: 40vw;
+    margin: 4vw;
 }
 
+@media screen and (max-width: 500px){
 
+    .intro{
+        background-size: cover;
+        background-position: center;
+    }
+    #firsttext{
+        width: 70vw;
+        font-size: 4vw;
+        margin-top: 40vw;
+    }
+
+    #explimg{
+        display: none;
+    }
+
+    .right{
+        margin: 5vw auto;
+        display: block;
+        width:50vw;
+    }
+
+    .left{
+        margin: 5vw auto;
+        display: block;
+        width:50vw;
+    }
+
+    .maintext{
+        font-size: 4vw;
+        width: 65vw;
+    }
+
+    p{
+        font-size: 3vw;
+    }
+
+    img.left{
+        width: 65vw;
+    }
+    img.right{
+        width: 65vw;
+    }
+
+}
 

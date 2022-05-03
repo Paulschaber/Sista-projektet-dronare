@@ -7,3 +7,70 @@
 .intro{
     grid-row: 1/2
 }
+
+.r1{
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.r2{
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+.r3{
+    grid-row: 7/8;
+    grid-column: 1/2;
+}
+
+.r4{
+    grid-row: 8/9;
+    grid-column: 1/2;
+}
+
+/*________________________________________________________________________________________________________________________________________________
+Gallery site
+ */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 100vw));
+    grid-template-rows: 1fr;
+}
+
+
+
+@media screen and (max-width: 500px){
+     .content{
+         grid-template-rows: 100vw minmax(10vw,auto);
+     }
+
+    img.r1{
+        grid-row: 5/6;
+    }
+
+    p.r1{
+        grid-row: 6/7;
+    }
+    img.r2{
+        grid-row: 7/8;
+    }
+
+    p.r2{
+        grid-row: 8/9;
+    }
+    img.r3{
+        grid-row: 9/10;
+    }
+
+    p.r3{
+        grid-row: 10/11;
+    }
+    img.r4{
+        grid-row: 11/12;
+    }
+
+    p.r4{
+        grid-row: 12/13;
+    }
+}
