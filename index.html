@@ -5,17 +5,22 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Rokkitt:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
   <body>
-    <header>
-      <a href="gallery.html">Gallery</a>
-      <img src="" alt="Logo">
-      <a href="">link2</a>
-    </header>
+
     <div class="content">
       <div class="intro">
+        <header>
+          <a href="gallery.html">Gallery</a>
+          <img src="" alt="Logo">
+          <a href="">link2</a>
+        </header>
+        <h1>Title</h1>
         <p class="center" id="firsttext" >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.
 
@@ -25,7 +30,8 @@
           consectetur adipiscing elit.
         </p>
       </div>
-      <img id="explimg" class="" usemap="#diagram-map" src="img/Drone_Diagram.webp" alt="Drone Diagram, by wikimedia user Glosome">
+      <canvas id="explimg"></canvas>
+      <!--<img id="explimg" class="" usemap="#diagram-map" src="img/Drone_Diagram.webp" alt="Drone Diagram, by wikimedia user Glosome">
       <map name="diagram-map">
         <area target="" alt="motor" title="motor" href="#motor" coords="237,250,263" shape="circle">
         <area target="" alt="motor" title="motor" href="#motor" coords="487,250,141" shape="circle">
@@ -53,7 +59,7 @@
         <area target="" alt="SD card" title="SD card" href="#sd" coords="835,879,0,791,9,905,967,1007" shape="rect">
         <area target="" alt="camera" title="camera" href="#camera" coords="972,994,9,901" shape=rect>
         <area target="" alt="motor" title="motor" href="#motor" coords="4,1020,1011,1126" shape="rect">
-      </map>
+      </map>-->
       <p class="center maintext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
         <br><br>
         Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
@@ -61,30 +67,68 @@
         Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nulla aliquet enim tortor at auctor urna nunc id. Eu turpis egestas pretium aenean pharetra. Non arcu risus quis varius. Non diam phasellus vestibulum lorem sed risus.
         <br> Aliquet bibendum enim facilisis gravida neque convallis.
       </p>
-      <img id="motor" class="left r1" src="img/brushless_motor.jpg" alt="Brushless motor, by wikimedia user Unknownlfcg">
+
+      <h3 id="motor" class="r1">The brushless motor</h3>
+      <img  class="left r1" src="img/brushless_motor.jpg" title=" by wikimedia user Unknownlfcg (CC BY-SA 4.0)" alt="Brushless motor">
       <p class="right r1">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
         <br><br>
         Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
       </p>
-      <img id="esc" class="right r2" src="img/ESC.jpg" alt="Electronic speedcontroller, by wikimedia user Avsar Aras">
+
+      <h3 id="esc" class="r2">The electronic speed controller</h3>
+      <img  class="right r2" src="img/ESC.jpg" title="by wikimedia user Avsar Aras (CC BY-SA 3.0)" alt="Electronic speedcontroller">
       <p class="left r2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
         <br><br>
         Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
       </p>
-      <img id="battery" class="left r3" src="img/lipo.jpg" alt="LiPo battery, by wikimedia user KundaliniZero">
+
+      <h3 id="battery" class="r3">The lithium polymer battery pack</h3>
+      <img  class="left r3" src="img/lipo.jpg" title="by wikimedia user KundaliniZero (CC BY-SA 3.0)" alt="LiPo battery">
       <p class="right r3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
         <br><br>
         Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
       </p>
-      <img id="fc" class="right r4" src="img/fc.jpg" alt="flight controller board, by unknown wikimedia user">
+
+      <h3 id="fc"  class="r4">The flight controller</h3>
+      <img class="right r4" src="img/fc.jpg" title="by wikimedia user Unknownlfcg (CC BY-SA 4.0)" alt="flight controller board">
       <p class="left r4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
         <br><br>
         Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
       </p>
+
+      <h3 id="rx"  class="r5">The reciever</h3>
+      <img class="r5 left" src="img/rx.png" title="by wikimedia user Lucasbosch (CC BY-SA 3.0)" alt="2.4Ghz rc reciever">
+      <p class="right r5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
+        <br><br>
+        Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
+      </p>
+
+      <h3 id="vtx"  class="r6">The videotransmitter</h3>
+      <img class="right r6" src="img/vtx.png" title="by wikimedia user Lucasbosch (CC BY-SA 3.0)" alt="5.8Ghz rc videotransmitter">
+      <p class="left r6">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
+        <br><br>
+        Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
+      </p>
+
+      <h3 id="camera"  class="r7">The camera</h3>
+      <div class="r7" id="cameras">
+        <img  src="img/gopro.jpg" title="by wikimedia user GautamSudhanshu (CC BY-SA 4.0)" alt="gopro hero 5 actioncam">
+        <img  src="img/fpvcamera.jpg" title="by wikimedia user Clicklabs (CC BY-SA 4.0)" alt="different models of fpv cameras">
+        <img  src="img/phantomcamera.jpg" title="by wikimedia user William Stitt willpower  (CC0 1.0)" alt="camera of a phantom 4 camera drone">
+      </div>
+      <p id="cameratxt" class="r7 center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Faucibus in ornare quam viverra orci sagittis.
+        <br><br>
+        Vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Eget felis eget nunc lobortis mattis. Malesuada fames ac turpis egestas integer eget aliquet nibh.
+      </p>
     </div>
+
+  <script src="script.js"></script>
   </body>
 </html>

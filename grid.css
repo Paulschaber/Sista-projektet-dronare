@@ -2,6 +2,7 @@
     display:grid;
     grid-template-rows: 67vw minmax(10vw,auto);
     grid-template-columns: 1fr;
+    grid-row-gap: 8vw;
 }
 
 .intro{
@@ -28,6 +29,22 @@
     grid-column: 1/2;
 }
 
+.r5{
+    grid-row: 9/10;
+    grid-column: 1/2;
+}
+
+.r6{
+    grid-row: 10/11;
+    grid-column: 1/2;
+}
+
+.r7{
+    grid-row: 11/12;
+    grid-column: 1/2;
+}
+
+
 /*________________________________________________________________________________________________________________________________________________
 Gallery site
  */
@@ -44,33 +61,51 @@ Gallery site
      .content{
          grid-template-rows: 100vw minmax(10vw,auto);
      }
+    h3.r1{
+        grid-row: auto;
+    }
 
     img.r1{
-        grid-row: 5/6;
+        grid-row: auto;
     }
 
     p.r1{
-        grid-row: 6/7;
+        grid-row: auto;
     }
+
+    h3.r2{
+        grid-row: auto;
+    }
+
     img.r2{
-        grid-row: 7/8;
+        grid-row: auto;
     }
 
     p.r2{
-        grid-row: 8/9;
+        grid-row: auto;
     }
+
+    h3.r3{
+        grid-row: auto;
+    }
+
     img.r3{
-        grid-row: 9/10;
+        grid-row: auto;
     }
 
     p.r3{
-        grid-row: 10/11;
+        grid-row: auto;
     }
+
+    h3.r4{
+        grid-row: auto;
+    }
+
     img.r4{
-        grid-row: 11/12;
+        grid-row: auto;
     }
 
     p.r4{
-        grid-row: 12/13;
+        grid-row: auto;
     }
 }
