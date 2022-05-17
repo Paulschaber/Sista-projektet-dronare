@@ -111,13 +111,29 @@ p{
 Gallery site
  */
 
-
 .container>img{
-    border-radius:5vw;
-    width: 40vw;
-    margin: 4vw;
+    border-radius:3vw;
 }
 
+.w1\/2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.w2\/1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.w1\/1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* a mediaquery to adjust for smaller screens*/
 @media screen and (max-width: 500px){
 
     h1{
