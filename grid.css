@@ -108,4 +108,40 @@ Gallery site
     p.r4{
         grid-row: auto;
     }
+
+    h3.r5{
+        grid-row: auto;
+    }
+
+    img.r5{
+        grid-row: auto;
+    }
+
+    p.r5{
+        grid-row: auto;
+    }
+
+    h3.r6{
+        grid-row: auto;
+    }
+
+    img.r6{
+        grid-row: auto;
+    }
+
+    p.r6{
+        grid-row: auto;
+    }
+
+    h3.r7{
+        grid-row: auto;
+    }
+
+    div.r7{
+        grid-row: auto;
+    }
+
+    p.r7{
+        grid-row: auto;
+    }
 }

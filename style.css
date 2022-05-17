@@ -10,11 +10,13 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 8vw;
+    font-size: 2vw;
 }
 
 h1{
     text-align: center;
     margin-top: 3vw;
+    font-size: 5vw;
 }
 
 .content{
@@ -118,14 +120,18 @@ Gallery site
 
 @media screen and (max-width: 500px){
 
+    h1{
+        font-size: 7vw;
+    }
+
     .intro{
         background-size: cover;
         background-position: center;
     }
     #firsttext{
         width: 70vw;
-        font-size: 4vw;
-        margin-top: 40vw;
+        font-size: 3.5vw;
+        margin-top: 25vw;
     }
 
     #explimg{
@@ -158,6 +164,10 @@ Gallery site
     }
     img.right{
         width: 65vw;
+    }
+
+    #cameratxt{
+        margin-top: 2vw;
     }
 
 }
