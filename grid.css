@@ -55,6 +55,7 @@ Gallery site
     grid-auto-rows: minmax(100px, 2fr);
     grid-auto-flow: dense;
     grid-gap: 1vw;
+
 }
 
 .w1\/2{
