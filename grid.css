@@ -78,7 +78,7 @@ Gallery site
      .content{
          grid-template-rows: 100vw minmax(10vw,auto);
      }
-    h3.r1{
+    h2.r1{
         grid-row: auto;
     }
 
@@ -90,7 +90,7 @@ Gallery site
         grid-row: auto;
     }
 
-    h3.r2{
+    h2.r2{
         grid-row: auto;
     }
 
@@ -102,7 +102,7 @@ Gallery site
         grid-row: auto;
     }
 
-    h3.r3{
+    h2.r3{
         grid-row: auto;
     }
 
@@ -114,7 +114,7 @@ Gallery site
         grid-row: auto;
     }
 
-    h3.r4{
+    h2.r4{
         grid-row: auto;
     }
 
@@ -126,7 +126,7 @@ Gallery site
         grid-row: auto;
     }
 
-    h3.r5{
+    h2.r5{
         grid-row: auto;
     }
 
@@ -138,7 +138,7 @@ Gallery site
         grid-row: auto;
     }
 
-    h3.r6{
+    h2.r6{
         grid-row: auto;
     }
 
@@ -150,7 +150,7 @@ Gallery site
         grid-row: auto;
     }
 
-    h3.r7{
+    h2.r7{
         grid-row: auto;
     }
 
